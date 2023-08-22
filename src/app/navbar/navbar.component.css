@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+/* body {
+    height: 100%;
+} */
+
+nav {
+    background-color: #2E1E1E;
+    /* width: 100%; */
+    position: relative;
+    padding: 25px 25px 25px 25px;
+}
+
+h1 {
+    color: #E21616;
+    text-align: center;
+}
