@@ -1,0 +1,30 @@
+.formation-part1{
+    display: flex;
+}
+
+.formation-part2{
+    border-left: thick solid #000;
+    height:10%;
+    left: 30%;
+    position: absolute;
+}
+
+.formation-part3{
+    margin-top: 2%;
+    text-align: center;
+    border-left: thick solid #000;
+    height:10%;
+    left: 30%;
+    position: absolute;
+}
+
+.formation-part4{
+    margin-top: 4%;
+    border-left: thick solid #000;
+    height:10%;
+    left: 30%;
+    position: absolute;
+}
+p{
+    padding: auto;
+}

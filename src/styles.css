@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+/* Ajoutez le CSS global dans styles.css */
+/* @import "~bootstrap/dist/css/bootstrap.css"; bootstrap.min.css */
+/* @import "~material-icons/iconfont/material-icons.css"; */
+
+/* 
+"node_modules/jquery/dist/jquery.js",
+"node_modules/boosted/dist/js/boosted.bundle.js" */
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    /* background-image: url("x.jpg"); */
+    /* min-height:100vh */
+    /* background:#0c192c */
+    /* background-size: cover;
+    background-position: center;*/
+}

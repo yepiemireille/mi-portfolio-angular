@@ -1,0 +1,64 @@
+.navbar{
+    background-color: rgb(0, 100, 0);
+    position: relative;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+/* 25px 25px 25px 25px */
+.navbar ul li{
+    padding: 12px 45px 12px 45px; 
+    text-align: center;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* width: 20%; */
+    /* height: 20px; */
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+.navbar ul li:hover{
+    background-color: rgb(185, 99, 8);
+}
+/* 
+@media screen and (max-width: 600px) {
+    .navbar{
+        position: absolute;
+    }
+    ul {
+        flex-direction: column; /* Changez la direction de la liste en colonne */
+        /*align-items: center;  Centrez les éléments de la liste
+    }
+
+    .navbar ul li {
+        padding: 12px;
+        text-align: center;
+        list-style: none; */
+        /* width: 100%; La largeur totale pour chaque élément de la liste 
+    }
+} */
+
+
+/* 
+.navbar ul li{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .navbar {
+    background: #2E1E1E;
+    /* background-color: rgb(0, 100, 0); */
+    /* width: 100%; */
+    /* position: relative;
+    padding: 25px 25px 25px 25px; */
+/* } */

@@ -1,0 +1,66 @@
+.actuality{
+    border-radius: 2%;
+    background-color: white;
+    margin: 15px 5px 0px 15px;
+    position: relative;
+}
+
+.marquee{
+    border-radius: 2%;
+    background-color: white;
+    margin: 15px 5px 0px 15px;
+    padding: 15px 5px 0px 95px;
+    position: relative;
+}
+.marquee img{
+    padding: 35px 35px 37px 95px;
+}
+
+.img-h2{
+    display: flex;
+    padding-left: 12px;
+}
+
+.img-h2 img{
+    animation: 2s infinite blink;
+}
+
+.marquee-img img{
+    width: 100px;
+    height: 100px;
+    padding-left: 1px;
+}
+
+hr{
+    background-color: gray;
+}
+
+h2{
+    padding-left: 15px;
+}
+p{
+    padding: 0px 15px  15px  15px;
+}
+a{
+    text-decoration: none;
+    border-radius: 12px;
+    color: white;
+    text-align: right;
+    margin:  14px 0px  35px  115px;
+    padding: 6px 6px  6px  6px;
+    background-color: brown;
+}
+
+
+@keyframes blink{
+    0%, 24.9%, 75.1%, 100%{
+        height: 0;
+        width: 0;
+        padding: 10px 15px;
+    }
+    25%, 75%{
+        height: 40px;
+        width: 40px;
+        padding: 0 0;
+    }
+}

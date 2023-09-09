@@ -1,0 +1,17 @@
+.presentation{
+    display: flex;
+    /* position: static; */
+}
+
+.text-point{
+    display: flex;
+}
+
+/* h2{
+    margin-left: 132px;
+} */
+
+/* span{
+    color: red;
+    font-size: 132px;
+} */
